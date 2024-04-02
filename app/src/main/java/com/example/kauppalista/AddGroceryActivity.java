@@ -10,14 +10,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 
 public class AddGroceryActivity extends AppCompatActivity {
     private EditText groceryName;
     private EditText groceryNote;
-
-
 
     @SuppressLint("MissingInflatedId")
     @Override
